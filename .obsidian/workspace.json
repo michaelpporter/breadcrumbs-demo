@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "685be4f8ba3dd91a",
+    "type": "split",
+    "children": [
+      {
+        "id": "572a8ec84e8aefaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "422d1e8ff70e53bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-johnny-decimal/11.02 Insurance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11.02 Insurance"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "486c4d342c3191f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5149de63d6037714",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99878c215ae6bdda",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "93385bce5482ef49",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ee2bfe4e19e4bbeb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d91b6c73371132ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dc84147dc0ec5d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c18612f29d8fcda8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-johnny-decimal/12.01 GP Records.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 12.01 GP Records"
+            }
+          },
+          {
+            "id": "3a9c035d2dd46452",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04-johnny-decimal/12.01 GP Records.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 12.01 GP Records"
+            }
+          },
+          {
+            "id": "b728c8d2bdedda22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bc4ec3071d27fe2f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6e2e795fb4c48151",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04-johnny-decimal/12.01 GP Records.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 12.01 GP Records"
+            }
+          },
+          {
+            "id": "806ea78e4c5ddf19",
+            "type": "leaf",
+            "state": {
+              "type": "bc-matrix-view",
+              "state": {},
+              "icon": "blinds",
+              "title": "Matrix view"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "422d1e8ff70e53bf",
+  "lastOpenFiles": [
+    "03-dendron/product.engineering.testing.md",
+    "03-dendron/product.engineering.api.md",
+    "03-dendron/product.design.typography.md",
+    "04-johnny-decimal/12.01 GP Records.md",
+    "04-johnny-decimal/11.02 Insurance.md",
+    "04-johnny-decimal/11 Finance.md",
+    "04-johnny-decimal/12 Health.md",
+    "04-johnny-decimal/11.01 Tax Returns.md",
+    "04-johnny-decimal/10 Life Admin.md",
+    "03-dendron/product.engineering.md",
+    "03-dendron/product.design.md",
+    "03-dendron/product.md",
+    "03-dendron/03-dendron.md",
+    "02-folder-note/Engineering/Backend/Database Schema.md",
+    "02-folder-note/Engineering/Backend/Backend.md",
+    "02-folder-note/Engineering/Backend/API Design.md",
+    "02-folder-note/Engineering/Frontend/Component Library.md",
+    "02-folder-note/Engineering/Frontend/Routing.md",
+    "02-folder-note/Engineering/Frontend/Frontend.md",
+    "02-folder-note/Engineering/Engineering.md",
+    "02-folder-note/02-folder-note.md",
+    "01-typed-link/Subtask A.md",
+    "01-typed-link/Project Alpha.md",
+    "01-typed-link/01-typed-link.md",
+    "Home.md"
+  ]
+}

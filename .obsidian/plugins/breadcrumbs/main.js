@@ -1,0 +1,1 @@
+/Users/michaelporter/Obsidian/breadcrumbs/.obsidian/plugins/breadcrumbs/main.js
