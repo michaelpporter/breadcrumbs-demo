@@ -1,5 +1,5 @@
 ---
-up: "[[Home]]"
+up: "[[README|home]]"
 ---
 
 # Dendron Note
@@ -13,7 +13,7 @@ Hierarchy inferred from dot-delimited basenames. No frontmatter required on chil
 ## Structure demonstrated
 
 ```
-03-dendron (manual up to Home)
+03-dendron (manual up to home)
 product                     ← root
 product.design              ← child of product
 product.design.typography   ← grandchild

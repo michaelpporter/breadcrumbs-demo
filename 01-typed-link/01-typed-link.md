@@ -1,5 +1,5 @@
 ---
-up: "[[Home]]"
+up: "[[README|home]]"
 down:
   - "[[Project Alpha]]"
   - "[[Project Beta]]"
@@ -11,12 +11,12 @@ down:
 
 Explicit edges via frontmatter. Add `up`, `down`, `same`, `next`, or `prev` fields to any note. Values are wiki-links (single or list).
 
-Implied relations automatically create the reverse edge — e.g. `up` on this note → Breadcrumbs adds a `down` edge from `Home` back here.
+Implied relations automatically create the reverse edge — e.g. `up` on this note → Breadcrumbs adds a `down` edge from `home` back here.
 
 ## Structure demonstrated
 
 ```
-Home
+home
 └── 01-typed-link          ← down: Project Alpha, Project Beta
     ├── Project Alpha      ← down: Task One, Task Two
     │   ├── Task One       ← same: Task Two, next: Task Two

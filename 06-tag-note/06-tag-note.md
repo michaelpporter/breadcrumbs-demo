@@ -1,5 +1,5 @@
 ---
-up: "[[Home]]"
+up: "[[README|home]]"
 ---
 
 # Tag Note

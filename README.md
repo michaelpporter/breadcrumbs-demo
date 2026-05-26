@@ -1,3 +1,8 @@
+---
+aliases:
+  - home
+---
+
 # Breadcrumbs Demo Vault
 
 Welcome to the Breadcrumbs demo vault. Each folder demonstrates one edge-builder.
@@ -16,6 +21,11 @@ Welcome to the Breadcrumbs demo vault. Each folder demonstrates one edge-builder
 | [[06-tag-note/06-tag-note\|06 · Tag Note]] | `tag_note` | Tag hubs linking tagged notes |
 | [[07-date-note/07-date-note\|07 · Date Note]] | `date_note` | Sequential daily notes linked by `next`/`prev` |
 | [[08-codeblocks/08-codeblocks\|08 · Codeblocks]] | — | `breadcrumbs` codeblock render types |
+
+## Resources
+
+- [Breadcrumbs plugin](https://github.com/SkepticMystic/breadcrumbs) — source repo
+- [Documentation](https://breadcrumbs-docs.michaelpporter.com) — full reference
 
 ## Tips
 

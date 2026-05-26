@@ -1,5 +1,5 @@
 ---
-up: "[[Home]]"
+up: "[[README|home]]"
 BC-list-note-field: down
 BC-list-note-neighbour-field: next
 ---
