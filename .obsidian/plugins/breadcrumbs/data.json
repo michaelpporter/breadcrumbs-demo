@@ -166,6 +166,9 @@
         "next_field": "next",
         "up_field": "up"
       }
+    },
+    "traverse_note": {
+      "default_field": "up"
     }
   },
   "views": {
@@ -240,7 +243,7 @@
           "prevs"
         ],
         "lock_view": false,
-        "lock_path": "04-johnny-decimal/11.02 Insurance.md"
+        "lock_path": "05-list-note/05-list-note.md"
       },
       "tree": {
         "collapse": false,

@@ -21,6 +21,7 @@ Welcome to the Breadcrumbs demo vault. Each folder demonstrates one edge-builder
 | [[06-tag-note/06-tag-note\|06 · Tag Note]] | `tag_note` | Tag hubs linking tagged notes |
 | [[07-date-note/07-date-note\|07 · Date Note]] | `date_note` | Sequential daily notes linked by `next`/`prev` |
 | [[08-codeblocks/08-codeblocks\|08 · Codeblocks]] | — | `breadcrumbs` codeblock render types |
+| [[09-traverse-note/09-traverse-note\|09 · Traverse Note]] | `traverse_note` | DFS walk of vault links from a root note |
 
 ## Resources
 
