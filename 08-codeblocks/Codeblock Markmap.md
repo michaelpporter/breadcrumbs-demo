@@ -10,8 +10,8 @@ Renders an interactive zoomable mind map (requires the Markmap library bundled w
 
 ````breadcrumbs
 type: markmap
-start-note: "04-johnny-decimal/10 Life Admin"
-field: down
-depth: 3
+start-note: "04-johnny-decimal/10 Life Admin.md"
+fields: [down]
+depth: [3]
 title: "Life Admin"
 ````

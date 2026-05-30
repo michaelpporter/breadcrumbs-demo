@@ -10,9 +10,9 @@ Renders a nested tree from a given note's descendants.
 
 ````breadcrumbs
 type: tree
-start-note: "01-typed-link/Project Alpha"
-field: down
-depth: 3
+start-note: "01-typed-link/Project Alpha.md"
+fields: [down]
+depth: [3]
 title: "Project Alpha hierarchy"
 ````
 
@@ -20,9 +20,9 @@ title: "Project Alpha hierarchy"
 
 ````breadcrumbs
 type: tree
-start-note: "01-typed-link/Project Alpha"
-field: down
-depth: 1
+start-note: "01-typed-link/Project Alpha.md"
+fields: [down]
+depth: [1]
 flat: true
 title: "Direct children of Project Alpha"
 ````
