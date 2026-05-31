@@ -1,36 +1,34 @@
----
-aliases:
-  - home
----
+# breadcrumbs-demo
 
-# Breadcrumbs Demo Vault
+An Obsidian vault demonstrating every edge-builder in the [Breadcrumbs plugin](https://github.com/michaelpporter/breadcrumbs). Each folder is a self-contained example you can open, inspect, and extend.
 
-Welcome to the Breadcrumbs demo vault. Each folder demonstrates one edge-builder.
+## What is Breadcrumbs?
 
-> **Setup:** Open this vault in Obsidian, then enable the Breadcrumbs plugin. The `data.json` settings are pre-configured.
+Breadcrumbs adds structured navigation to Obsidian by letting you define directional relationships between notes — `up`, `down`, `same`, `next`, `prev` — using a variety of automatic and manual methods called **edge-builders**. Once edges are defined, the plugin renders trails, trees, and matrices so you can navigate your vault hierarchically.
 
-## Feature Demos
+## Demos
 
-| Folder | Builder | What it shows |
+| Folder | Edge-builder | Technique |
 |---|---|---|
-| [[01-typed-link/01-typed-link\|01 · Typed Link]] | `typed_link` | Manual `up`/`down`/`same`/`next`/`prev` frontmatter fields |
-| [[02-folder-note/02-folder-note\|02 · Folder Note]] | `folder_note` | Folder structure → hierarchy via `BC-folder-note-field` |
-| [[03-dendron/03-dendron\|03 · Dendron]] | `dendron_note` | Dot-delimited basenames (`project.frontend.components`) |
-| [[04-johnny-decimal/04-johnny-decimal\|04 · Johnny Decimal]] | `johnny_decimal_note` | Numeric prefix hierarchy (`11.01 Invoice`) |
-| [[05-list-note/05-list-note\|05 · List Note]] | `list_note` | Markdown list items as children |
-| [[06-tag-note/06-tag-note\|06 · Tag Note]] | `tag_note` | Tag hubs linking tagged notes |
-| [[07-date-note/07-date-note\|07 · Date Note]] | `date_note` | Sequential daily notes linked by `next`/`prev` |
-| [[08-codeblocks/08-codeblocks\|08 · Codeblocks]] | — | `breadcrumbs` codeblock render types |
-| [[09-traverse-note/09-traverse-note\|09 · Traverse Note]] | `traverse_note` | DFS walk of vault links from a root note |
+| `01-typed-link` | `typed_link` | Manual frontmatter fields (`up`, `down`, `same`, `next`, `prev`) |
+| `02-folder-note` | `folder_note` | Folder structure inferred via `BC-folder-note-field` |
+| `03-dendron` | `dendron_note` | Dot-delimited basenames (`project.frontend.components`) |
+| `04-johnny-decimal` | `johnny_decimal_note` | Numeric prefix hierarchy (`11.01 Invoice`) |
+| `05-list-note` | `list_note` | Markdown list items become child notes |
+| `06-tag-note` | `tag_note` | Tag hub notes link all tagged notes as children |
+| `07-date-note` | `date_note` | Daily notes auto-linked by `next`/`prev` |
+| `08-codeblocks` | — | `breadcrumbs` codeblock render types (tree, trail, markmap) |
+| `09-traverse-note` | `traverse_note` | DFS walk of vault links from a root note |
+
+## Getting started
+
+1. Clone or download this repo.
+2. Open the root folder as a vault in Obsidian (**Open folder as vault**).
+3. Enable the **Breadcrumbs** community plugin (Settings → Community plugins).
+4. Plugin settings are pre-configured via `.obsidian/plugins/breadcrumbs/data.json` — no manual setup needed.
+5. Open any folder's index note and explore the Trail, Tree View, and Matrix View.
 
 ## Resources
 
-- [Breadcrumbs plugin](https://github.com/SkepticMystic/breadcrumbs) — source repo
-- [Documentation](https://breadcrumbs-docs.michaelpporter.com) — full reference
-
-## Tips
-
-- Open the **Tree View** (sidebar) to see hierarchies from any note.
-- Open the **Matrix View** (sidebar) to see all edges on the active note.
-- The **Trail** at the top of each note shows the path to root.
-- The **Prev/Next** bar at the bottom links sequential notes.
+- [Breadcrumbs plugin repo](https://github.com/michaelpporter/breadcrumbs)
+- [Breadcrumbs documentation](https://breadcrumbs-docs.michaelpporter.com)

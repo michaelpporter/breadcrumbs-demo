@@ -1,5 +1,5 @@
 ---
-up: "[[README|home]]"
+up: "[[HOME|home]]"
 down:
   - "[[Project Alpha]]"
   - "[[Project Beta]]"

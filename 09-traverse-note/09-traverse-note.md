@@ -1,5 +1,5 @@
 ---
-up: "[[README|home]]"
+up: "[[HOME|home]]"
 ---
 
 # Traverse Note
