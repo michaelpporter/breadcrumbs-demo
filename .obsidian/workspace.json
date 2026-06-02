@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-johnny-decimal/12.01 GP Records.md",
+                "file": "02-folder-note/02-folder-note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12.01 GP Records"
-            }
-          },
-          {
-            "id": "879dafce303bc7d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HOME"
+              "title": "02-folder-note"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,34 +195,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "879dafce303bc7d5",
+  "active": "422d1e8ff70e53bf",
   "lastOpenFiles": [
-    "README.md",
-    "HOME.md",
-    "08-codeblocks/Codeblock Markmap.md",
-    "08-codeblocks/Codeblock Mermaid.md",
-    "08-codeblocks/08-codeblocks.md",
-    "08-codeblocks/Codeblock Tree.md",
-    "02-folder-note/Engineering/Backend/Database Schema.md",
-    "02-folder-note/Engineering/Backend/Backend.md",
-    "02-folder-note/02-folder-note.md",
-    "03-dendron/product.design.md",
-    "04-johnny-decimal/11 Finance.md",
-    "04-johnny-decimal/11.02 Insurance.md",
-    "05-list-note/Cherry.md",
-    "05-list-note/05-list-note.md",
-    "05-list-note/Elderberry.md",
-    "05-list-note/Durian.md",
-    "05-list-note/Banana.md",
-    "05-list-note/Apple.md",
-    "09-traverse-note/Programming.md",
-    "09-traverse-note/Python.md",
-    "09-traverse-note/Knowledge Map.md",
-    "09-traverse-note/Ancient Rome.md",
-    "09-traverse-note/09-traverse-note.md",
-    "09-traverse-note/JavaScript.md",
-    "09-traverse-note/History.md",
-    "09-traverse-note/Renaissance.md",
-    "09-traverse-note"
+    "07-date-note/2026/DAILY/06/2026-06-01.md",
+    "07-date-note/2026/DAILY/06/2026-06-02.md",
+    "07-date-note/2026/DAILY/06/2026-06-03.md",
+    "07-date-note/2026/MONTHLY/2026-03.md",
+    "07-date-note/2026/MONTHLY/2026-06.md",
+    "07-date-note/2026/QUARTERLY/2026-Q2.md",
+    "07-date-note/2024/MONTHLY/2024-03.md",
+    "07-date-note/2025.md",
+    "07-date-note/2024/DAILY/03/2024-03-06.md",
+    "07-date-note/2024/DAILY/03/2024-03-07.md",
+    "07-date-note/2026/MONTHLY/2026-04.md",
+    "07-date-note/2026/MONTHLY/2026-05.md",
+    "07-date-note/2026/QUARTERLY/2026-Q1.md",
+    "07-date-note/2026/WEEKLY/2026-W21.md",
+    "07-date-note/2026/WEEKLY/2026-W22.md",
+    "07-date-note/2026/WEEKLY/2026-W23.md",
+    "07-date-note/2024/WEEKLY/2024-W09.md",
+    "07-date-note/2024/DAILY/03/2024-03-03.md",
+    "07-date-note/2024.md",
+    "07-date-note/2026.md",
+    "07-date-note/07-date-note.md",
+    "07-date-note/2024-03-03.md",
+    "07-date-note/2026/DAILY/05/2026-05-29.md",
+    "07-date-note/2026/DAILY/05/2026-05-28.md",
+    "07-date-note/2026/DAILY/05/2026-05-27.md",
+    "07-date-note/2026/DAILY/05/2026-05-26.md",
+    "07-date-note/2026/DAILY/06",
+    "07-date-note/2026/DAILY/05",
+    "07-date-note/2026/WEEKLY",
+    "07-date-note/2026/MONTHLY",
+    "07-date-note/2026/QUARTERLY",
+    "07-date-note/2026/DAILY",
+    "07-date-note/2026",
+    "07-date-note/2025/QUARTERLY",
+    "07-date-note/2025/MONTHLY",
+    "07-date-note/2025"
   ]
 }

@@ -6,19 +6,41 @@ up: "[[HOME|home]]"
 
 **Builder:** `date_note`
 
-Breadcrumbs auto-links daily notes by date. Files named `yyyy-MM-dd` get `next`/`prev` edges to adjacent dates — no frontmatter needed.
+Breadcrumbs auto-links date notes by parsing filenames — no frontmatter needed. Period notes form a containment hierarchy: daily → weekly → monthly → quarterly → yearly.
 
 **Settings in `data.json`:**
 - `date_note.enabled: true`
-- `date_format: "yyyy-MM-dd"`
+- `date_format: "yyyy-MM-dd"` (daily)
 - `default_field: "next"`
+- Weekly: `next_field: "next_week"`, `up_field: "up"`, format `kkkk-'W'WW`
+- Monthly: `next_field: "next_month"`, `up_field: "up"`, format `yyyy-MM`
+- Quarterly: `next_field: "next_quarter"`, `up_field: "up"`, format `yyyy-'Q'q`
+- Yearly: `next_field: "next_year"`, `up_field: "up"`, format `yyyy`
 
-## Structure demonstrated
-
-Seven consecutive days. Open any day note and use Prev/Next navigation to walk the chain.
+## Structure
 
 ```
-2024-03-01 → 2024-03-02 → 2024-03-03 → 2024-03-04 → 2024-03-05 → 2024-03-06 → 2024-03-07
+07-date-note/
+  2024.md / 2025.md / 2026.md    ← yearly notes
+  2024/
+    DAILY/03/      ← 7 consecutive days (basic next/prev chain)
+    MONTHLY/       ← 2024-03
+    QUARTERLY/     ← 2024-Q1
+    WEEKLY/        ← 2024-W09, 2024-W10
+  2025/
+    MONTHLY/       ← full year (12 months)
+    QUARTERLY/     ← Q1–Q4
+  2026/
+    DAILY/05/      ← workdays May (weekends skipped)
+    DAILY/06/      ← early June
+    MONTHLY/       ← 2026-01 through 2026-06
+    QUARTERLY/     ← 2026-Q1, 2026-Q2
+    WEEKLY/        ← 2026-W18 through 2026-W23
 ```
 
-> Note: `stretch_to_existing: false` means Breadcrumbs only links dates that have files. If you delete `2024-03-04`, the chain breaks at that point. Set it to `true` to bridge gaps.
+## What to explore
+
+- Open any daily note → Prev/Next walks the date chain
+- Daily note → `up` → week note → `up` → month → `up` → quarter → `up` → year
+- Transitive rules (rounds: 3) chain `up` across levels automatically
+- May 2026 weekends are missing — toggle `stretch_to_existing` to bridge gaps

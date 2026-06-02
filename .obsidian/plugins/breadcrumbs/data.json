@@ -15,6 +15,36 @@
     },
     {
       "label": "prev"
+    },
+    {
+      "label": "next_week"
+    },
+    {
+      "label": "prev_week"
+    },
+    {
+      "label": "next_month"
+    },
+    {
+      "label": "prev_month"
+    },
+    {
+      "label": "next_quarter"
+    },
+    {
+      "label": "prev_quarter"
+    },
+    {
+      "label": "next_year"
+    },
+    {
+      "label": "prev_year"
+    },
+    {
+      "label": "tomorrow"
+    },
+    {
+      "label": "yesterday"
     }
   ],
   "edge_field_groups": [
@@ -39,13 +69,23 @@
     {
       "label": "nexts",
       "fields": [
-        "next"
+        "next",
+        "tomorrow",
+        "next_week",
+        "next_month",
+        "next_quarter",
+        "next_year"
       ]
     },
     {
       "label": "prevs",
       "fields": [
-        "prev"
+        "prev",
+        "yesterday",
+        "prev_week",
+        "prev_month",
+        "prev_quarter",
+        "prev_year"
       ]
     }
   ],
@@ -53,7 +93,7 @@
     "transitive": [
       {
         "name": "",
-        "rounds": 1,
+        "rounds": 3,
         "chain": [
           {
             "field": "up"
@@ -64,7 +104,7 @@
       },
       {
         "name": "",
-        "rounds": 1,
+        "rounds": 3,
         "chain": [
           {
             "field": "down"
@@ -105,6 +145,116 @@
         ],
         "close_field": "next",
         "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "next_week"
+          }
+        ],
+        "close_field": "prev_week",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "prev_week"
+          }
+        ],
+        "close_field": "next_week",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "next_month"
+          }
+        ],
+        "close_field": "prev_month",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "prev_month"
+          }
+        ],
+        "close_field": "next_month",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "next_quarter"
+          }
+        ],
+        "close_field": "prev_quarter",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "prev_quarter"
+          }
+        ],
+        "close_field": "next_quarter",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "next_year"
+          }
+        ],
+        "close_field": "prev_year",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "prev_year"
+          }
+        ],
+        "close_field": "next_year",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "tomorrow"
+          }
+        ],
+        "close_field": "yesterday",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "yesterday"
+          }
+        ],
+        "close_field": "tomorrow",
+        "close_reversed": true
       }
     ]
   },
@@ -136,36 +286,37 @@
     "date_note": {
       "enabled": true,
       "date_format": "yyyy-MM-dd",
-      "default_field": "next",
-      "stretch_to_existing": false,
+      "default_field": "tomorrow",
+      "stretch_to_existing": true,
       "week": {
-        "enabled": false,
+        "enabled": true,
         "date_format": "kkkk-'W'WW",
         "folder": "",
-        "next_field": "next",
+        "next_field": "next_week",
         "up_field": "up"
       },
       "month": {
-        "enabled": false,
+        "enabled": true,
         "date_format": "yyyy-MM",
         "folder": "",
-        "next_field": "next",
+        "next_field": "next_month",
         "up_field": "up"
       },
       "quarter": {
-        "enabled": false,
+        "enabled": true,
         "date_format": "yyyy-'Q'q",
         "folder": "",
-        "next_field": "next",
+        "next_field": "next_quarter",
         "up_field": "up"
       },
       "year": {
-        "enabled": false,
+        "enabled": true,
         "date_format": "yyyy",
         "folder": "",
-        "next_field": "next",
+        "next_field": "next_year",
         "up_field": "up"
-      }
+      },
+      "week_start": "sunday"
     },
     "traverse_note": {
       "default_field": "up"
@@ -209,10 +360,10 @@
           ]
         },
         "period_rows": {
-          "week": false,
-          "month": false,
-          "quarter": false,
-          "year": false
+          "week": true,
+          "month": true,
+          "quarter": true,
+          "year": true
         }
       }
     },
@@ -243,7 +394,7 @@
           "prevs"
         ],
         "lock_view": false,
-        "lock_path": "HOME.md"
+        "lock_path": "02-folder-note/02-folder-note.md"
       },
       "tree": {
         "collapse": false,
