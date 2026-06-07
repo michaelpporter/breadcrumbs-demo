@@ -183,8 +183,8 @@
             "state": {
               "type": "bc-tree-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "bc-tree-view"
+              "icon": "tree-pine",
+              "title": "Tree view"
             }
           }
         ],
@@ -205,6 +205,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "422d1e8ff70e53bf",
+  "active": "806ea78e4c5ddf19",
   "lastOpenFiles": []
 }

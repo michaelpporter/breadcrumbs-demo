@@ -489,5 +489,8 @@
   "_bc_migrations": {
     "tree_ups_with_downs_default": true,
     "tree_find_root_default": true
-  }
+  },
+  "self_is_sibling": [
+    "same"
+  ]
 }
