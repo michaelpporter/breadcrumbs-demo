@@ -394,15 +394,15 @@
           "prevs"
         ],
         "lock_view": false,
-        "lock_path": "02-folder-note/02-folder-note.md"
+        "lock_path": "HOME.md"
       },
       "tree": {
         "collapse": false,
         "show_attributes": [],
-        "merge_fields": false,
+        "merge_fields": true,
         "default_depth": 5,
         "lock_view": false,
-        "lock_path": "",
+        "lock_path": "HOME.md",
         "field_group_labels": [
           "ups",
           "downs"
@@ -416,7 +416,7 @@
           "folder": false,
           "alias": false
         },
-        "find_root": true,
+        "find_root": false,
         "find_root_field_group_labels": [
           "ups"
         ]
