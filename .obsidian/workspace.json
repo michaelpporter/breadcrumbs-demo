@@ -183,8 +183,8 @@
             "state": {
               "type": "bc-tree-view",
               "state": {},
-              "icon": "tree-pine",
-              "title": "Tree view"
+              "icon": "lucide-ghost",
+              "title": "bc-tree-view"
             }
           }
         ],
@@ -192,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.0234375,
-    "collapsed": false
+    "width": 314
   },
   "left-ribbon": {
     "hiddenItems": {
