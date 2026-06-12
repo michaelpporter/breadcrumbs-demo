@@ -22,6 +22,8 @@ Breadcrumbs adds structured navigation to Obsidian by letting you define directi
 
 ## Getting started
 
+> **Requires Obsidian 1.13.0 or newer.**
+
 1. Clone or download this repo.
 2. Open the root folder as a vault in Obsidian (**Open folder as vault**).
 3. Enable the **Breadcrumbs** community plugin (Settings → Community plugins).
