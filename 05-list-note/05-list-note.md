@@ -21,3 +21,7 @@ This note is the list-note index. Breadcrumbs reads the wiki-links in the list b
 - [[Elderberry]]
 
 > The order matters! Apple → next → Banana → next → Cherry, etc.
+
+## See also
+
+- [[Section List Note]] — scope the builder to one heading with `BC-list-note-section`.
