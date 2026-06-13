@@ -25,3 +25,4 @@ This note is the list-note index. Breadcrumbs reads the wiki-links in the list b
 ## See also
 
 - [[Section List Note]] — scope the builder to one heading with `BC-list-note-section`.
+- [[Exclude List Note]] — exempt individual links with `BC-list-note-exclude`.
