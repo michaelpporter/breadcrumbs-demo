@@ -6,7 +6,7 @@ up: "[[HOME|home]]"
 
 **Feature:** ` ```breadcrumbs ``` ` fenced blocks in notes
 
-Render a hierarchy inline — useful for MOCs, indexes, and visualizations. Three renderers: `tree`, `mermaid`, `markmap`.
+Render a hierarchy inline — useful for MOCs, indexes, and visualizations. Four renderers: `tree`, `mermaid`, `markmap`, `graph`.
 
 ## Examples
 
@@ -15,13 +15,15 @@ See individual notes for live examples:
 - [[Codeblock Tree]] — tree renderer, most common
 - [[Codeblock Mermaid]] — Mermaid flowchart
 - [[Codeblock Markmap]] — interactive mind map
+- [[Codeblock Graph]] — whole-vault / `from`-scoped graph
 
 ## Codeblock schema
 
 ```
-type: tree | mermaid | markmap
+type: tree | mermaid | markmap | graph
 title: "optional heading"
 start-note: "path/to/note"   # default: active note
+from: '"folder" OR #tag'     # scope entry notes (graph; also tree/markmap)
 field: up | down | same      # which field to traverse
 depth: 3                     # max depth
 flat: false                  # flat list vs nested
