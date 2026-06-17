@@ -36,6 +36,8 @@
     "next_year": "multitext",
     "prev_year": "multitext",
     "tomorrow": "multitext",
-    "yesterday": "multitext"
+    "yesterday": "multitext",
+    "BC-list-note-section": "text",
+    "BC-list-note-exclude": "multitext"
   }
 }

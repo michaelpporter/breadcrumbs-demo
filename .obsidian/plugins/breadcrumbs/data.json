@@ -320,6 +320,9 @@
     },
     "traverse_note": {
       "default_field": "up"
+    },
+    "dataview_note": {
+      "default_field": "up"
     }
   },
   "views": {
@@ -492,5 +495,6 @@
   },
   "self_is_sibling": [
     "same"
-  ]
+  ],
+  "exclude_folders": []
 }
