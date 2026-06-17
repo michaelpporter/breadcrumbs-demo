@@ -19,7 +19,7 @@ title: "Life Admin"
 
 ```breadcrumbs
 type: markmap
-dataview-from: '"04-johnny-decimal"'
+from: '"04-johnny-decimal"'
 fields: [down]
 depth: [3]
 ```
