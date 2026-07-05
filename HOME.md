@@ -16,7 +16,7 @@ Welcome to the Breadcrumbs demo vault. Each folder demonstrates one edge-builder
 | [[01-typed-link/01-typed-link\|01 · Typed Link]] | `typed_link` | Manual `up`/`down`/`same`/`next`/`prev` frontmatter fields |
 | [[02-folder-note/02-folder-note\|02 · Folder Note]] | `folder_note` | Folder structure → hierarchy via `BC-folder-note-field` |
 | [[03-dendron/03-dendron\|03 · Dendron]] | `dendron_note` | Dot-delimited basenames (`project.frontend.components`) |
-| [[04-johnny-decimal/04-johnny-decimal\|04 · Johnny Decimal]] | `johnny_decimal_note` | Numeric prefix hierarchy (`11.01 Invoice`) |
+| [[04-johnny-decimal/04-johnny-decimal\|04 · Johnny.Decimal]] | `johnny_decimal_note` | Numeric prefix hierarchy (`11.01 Invoice`) |
 | [[05-list-note/05-list-note\|05 · List Note]] | `list_note` | Markdown list items as children |
 | [[06-tag-note/06-tag-note\|06 · Tag Note]] | `tag_note` | Tag hubs linking tagged notes |
 | [[07-date-note/07-date-note\|07 · Date Note]] | `date_note` | Sequential daily notes linked by `next`/`prev` |

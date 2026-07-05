@@ -2,7 +2,7 @@
 up: "[[HOME|home]]"
 ---
 
-# Johnny Decimal Note
+# Johnny.Decimal Note
 
 **Builder:** `johnny_decimal_note`
 

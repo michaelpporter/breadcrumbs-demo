@@ -6,7 +6,7 @@ up: "[[08-codeblocks]]"
 
 Renders an interactive zoomable mind map (requires the Markmap library bundled with Breadcrumbs).
 
-## Example — Johnny Decimal as mind map
+## Example — Johnny.Decimal as mind map
 
 ````breadcrumbs
 type: markmap
