@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"11-canvas-export/Design.md","type":"file","file":"11-canvas-export/Design.md","x":400,"y":840,"width":260,"height":80},
+		{"id":"11-canvas-export/Sibling.md","type":"file","file":"11-canvas-export/Sibling.md","x":-180,"y":-80,"width":260,"height":80},
+		{"id":"11-canvas-export/Phase 0.md","type":"file","file":"11-canvas-export/Phase 0.md","x":-980,"y":880,"width":260,"height":80},
+		{"id":"11-canvas-export/Phase 2.md","type":"file","file":"11-canvas-export/Phase 2.md","x":420,"y":220,"width":260,"height":80},
+		{"id":"11-canvas-export/Twin.md","type":"file","file":"11-canvas-export/Twin.md","x":-850,"y":60,"width":260,"height":80},
+		{"id":"11-canvas-export/Hub.md","type":"file","file":"11-canvas-export/Hub.md","x":-120,"y":440,"width":260,"height":80},
+		{"id":"11-canvas-export/Tomorrow.md","type":"file","file":"11-canvas-export/Tomorrow.md","x":720,"y":520,"width":260,"height":80},
+		{"id":"11-canvas-export/Build.md","type":"file","file":"11-canvas-export/Build.md","x":-380,"y":1020,"width":260,"height":80},
+		{"id":"11-canvas-export/Portfolio.md","type":"file","file":"11-canvas-export/Portfolio.md","x":270,"y":-120,"width":260,"height":80}
+	],
+	"edges":[
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Sibling.md|same","fromNode":"11-canvas-export/Hub.md","fromSide":"left","toNode":"11-canvas-export/Sibling.md","toSide":"right","label":"same"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Hub.md|same","fromNode":"11-canvas-export/Hub.md","fromSide":"left","toNode":"11-canvas-export/Hub.md","toSide":"right","label":"same"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Tomorrow.md|tomorrow","fromNode":"11-canvas-export/Hub.md","fromSide":"right","toNode":"11-canvas-export/Tomorrow.md","toSide":"left","label":"tomorrow"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Phase 0.md|prev","fromNode":"11-canvas-export/Hub.md","fromSide":"left","toNode":"11-canvas-export/Phase 0.md","toSide":"right","label":"prev"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Phase 2.md|next","fromNode":"11-canvas-export/Hub.md","fromSide":"right","toNode":"11-canvas-export/Phase 2.md","toSide":"left","label":"next"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Twin.md|same","fromNode":"11-canvas-export/Hub.md","fromSide":"left","toNode":"11-canvas-export/Twin.md","toSide":"right","label":"same"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Build.md|down","fromNode":"11-canvas-export/Hub.md","fromSide":"bottom","toNode":"11-canvas-export/Build.md","toSide":"top","label":"down"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Design.md|down","fromNode":"11-canvas-export/Hub.md","fromSide":"bottom","toNode":"11-canvas-export/Design.md","toSide":"top","label":"down"},
+		{"id":"11-canvas-export/Hub.md|11-canvas-export/Portfolio.md|up","fromNode":"11-canvas-export/Hub.md","fromSide":"top","toNode":"11-canvas-export/Portfolio.md","toSide":"bottom","label":"up"}
+	]
+}
