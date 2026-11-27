@@ -264,7 +264,7 @@
       "default_neighbour_field": "next"
     },
     "tag_note": {
-      "default_field": "up",
+      "default_field": "down",
       "default_sibling_field": "same"
     },
     "regex_note": {
