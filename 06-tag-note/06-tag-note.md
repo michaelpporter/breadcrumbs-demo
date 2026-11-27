@@ -8,7 +8,7 @@ up: "[[HOME|home]]"
 
 A "tag hub" note lists a tag in `BC-tag-note-tag`. Breadcrumbs finds every note in the vault with that tag and creates edges from the hub to each tagged note.
 
-**Settings:** `tag_note.default_field: "up"` and `default_sibling_field: "same"` in `data.json`.
+**Settings:** `tag_note.default_field: "down"` and `default_sibling_field: "same"` in `data.json`.
 
 ## Structure demonstrated
 
